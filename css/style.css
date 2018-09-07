@@ -57,7 +57,6 @@ section {
 /*  header  */
 header{
   display: flex;
-  height: 70px;
   background-color: #2d3c49;
   position: relative;
   color: white;
@@ -257,5 +256,56 @@ footer{
   }
   .contact{
     margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 840px){
+  .button-wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .button{
+    margin: auto;
+  }
+  .search-wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13px;
+  }
+  #search{
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .menu{
+    padding-top: 0;
+  }
+  .button-wrap{
+    display: block;
+  }
+  .button{
+    margin: 16px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .button:after {
+    content: '';
+    border-bottom: 1px solid #667a92;
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 15px;
+  }
+  .search-wrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13px;
+  }
+  #search{
+    margin: 16px auto;
   }
 }
