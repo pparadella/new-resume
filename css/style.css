@@ -1,0 +1,261 @@
+*{
+  box-sizing: border-box;
+}
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+body,
+p,
+h2,
+h1 {
+  padding: 0;
+  margin: 0 !important;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #999;
+  line-height: 29px;
+  padding: 10px;
+}
+.main{
+  margin: auto;
+  z-index: 4;
+}
+.item-title{
+  color: #1199c3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+.item-year{
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+.item-location{
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+}
+.item-desc{
+  clear: both;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+section {
+    padding: 0px 12px;
+}
+
+/*  header  */
+header{
+  display: flex;
+  height: 70px;
+  background-color: #2d3c49;
+  position: relative;
+  color: white;
+  -webkit-box-shadow: 0 5px 8px 10px #2d3c49;
+  box-shadow: 0 5px 8px 10px #2d3c49;
+}
+.menu{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding-top: 13px;
+}
+.button{
+  float: left;
+  margin: 10px 3%;
+}
+#search{
+  float: right;
+  margin: 10px 3%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-image: url(../img/searchicon.png);
+  background-position: 10px 0px;
+  background-repeat: no-repeat;
+  padding: 2px 0 2px 40px;
+}
+#header{
+  background-color: rgb(102, 122, 146);
+  padding: 10px;
+  color: white;
+}
+.header-skills ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-skills ul li{
+  margin-left: 30px;
+}
+.header-item{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name{
+  width: 100%;
+  text-align: center;
+}
+.header-img{
+  width: 32%;
+  text-align: center;
+}
+.header-img img {
+  max-width: 250px;
+  border-radius: 10%;
+}
+.header-skills{
+  width: 68%;
+}
+.responsiveImg{
+  max-width: 100%;
+}
+
+/*  education */
+#education{
+  background-color: #f4fcff;
+}
+.education-item{
+  padding: 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*  work experience */
+#workExperience{
+  background-color: #ffffff;
+}
+.workExperience-item{
+  padding: 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*  Projects  */
+#projects{
+  background-color: #f4fcff;
+}
+.projects-item{
+  padding: 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+.item-desc img{
+  max-width: 100%;
+  width: 382px;
+}
+
+/*  footer  */
+.division-wrap{
+  overflow: hidden;
+  height: 203px;
+  margin-bottom: 449px;
+}
+.division {
+  background-color: #f4fcff;
+  height: 200px;
+  border: 200px solid #f4fcff;
+  border-radius: 50%;
+  position: relative;
+  top: -198px;
+  left: -38%;
+  overflow: hidden;
+  width: 175%;
+  z-index: -5;
+}
+footer{
+  background-color: #2d3c49;
+  height: 500px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: -10;
+  box-sizing: border-box;
+  padding: 0;
+  padding-top: 197px;
+  margin: 0;
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+.col {
+  display: block;
+  width: 30%;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+.col2 {
+  width: 30%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.row {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+.socialLink {
+  margin: auto;
+  width: 40px;
+  font-size: 35px;
+}
+.contact{
+  text-align: center;
+  color: white;
+  margin-top: 64px;
+  width: 100%;
+  height: 20px;
+}
+.contact-item{
+  margin: 3px 3% 0 3%;
+  display: inline-block;
+}
+
+@media only screen and (max-width:900px){
+  .header-img{
+    width: 100%;
+  }
+  .header-skills{
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width:610px) {
+  .row{
+    flex-wrap: wrap;
+  }
+  .col{
+    width: 100%;
+  }
+  .col2{
+    width: 100%;
+    margin: 35px 0;
+  }
+  footer{
+    padding-top: 93px;
+    flex-wrap: wrap;
+  }
+  .contact{
+    margin-top: 40px;
+  }
+}
