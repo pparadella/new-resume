@@ -159,6 +159,14 @@ header{
   max-width: 100%;
   width: 382px;
 }
+#projects a{
+  color: rgb(52, 119, 117);
+  font-weight:bold;
+}
+#projects a:hover{
+  color: rgb(77, 177, 174);
+  font-weight:bolder;
+}
 
 /*  footer  */
 .division-wrap{

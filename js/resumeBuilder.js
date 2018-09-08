@@ -231,7 +231,7 @@ projects.display = function () {
     //display url
     for (var url in projects.projects[each].url){
       if (projects.projects[each].url[url] != ""){
-        $('.projects-item .item-desc').eq(each).append('<br><a target="_blank" href="'+ projects.projects[each].url[url] +'">'+ projects.projects[each].url[url] +'</a><br>');
+        $('.projects-item .item-desc').eq(each).append('<br><a target="_blank" href="'+ projects.projects[each].url[url] +'">'+ "Link "+ (parseInt(url)+1) +'</a><br>');
       }
     }
   }
