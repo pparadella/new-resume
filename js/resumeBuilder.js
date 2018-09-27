@@ -61,7 +61,7 @@ var work = {
       "title" : "Estagiário de Desenvolvimento",
       "location" : "Centro, Rio de Janeiro, RJ",
       "dates" : "2018",
-      "desc" : "Utilizo javascript, jquery, jslink, css, C# e outras API's para criar produtos novos e melhorar a experiência do usuário com o sharepoint."
+      "desc" : "Utilizo javascript, jquery, jslink, css, C# e outras API's para criar produtos novos e melhorar a experiência do usuário com o sharepoint.<br>Fiz uma TV Corporativa, que é acessada via browser para Smart-Tvs, desenvolvida em C#, asp.net e javascript. Utilizei Css3 e jquery para tratamento no front-end."
     },
     {
       "employer" : "Freelancer",
@@ -96,6 +96,13 @@ var work = {
 
 var projects = {
   "projects" : [
+    {
+      "title" : "TV Corporativa",
+      "dates" : "2018",
+      "description" : "No meu estágio na metatron desenvolvi uma tv corporativa do zero. Hoje ela é vendida como produto da empresa.<br>É um prodruto web desenvolvido principalmente em asp.net, C# e javascript.<br>A TV corporativa é uma aplicação asp.net que tem metodos em C# onde procuram no servidor as medias(jpg, png e mp4) em tempo real, adicionando media nova na playlist ou removendo se não existir. A pasta do servidor está ligado a uma lista do sharepoint onde é feito o tratamento de ordenação e envio/exclusão das medias.",
+      "images" : [""],
+      "url" : [""]
+    },
     {
       "title" : "Currículo Online",
       "dates" : "2018",
